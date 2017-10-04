@@ -1,0 +1,15 @@
+{
+    "name": "westham/frame-mvc",
+    "authors": [
+        {
+            "name": "Oleg Ivanenko",
+            "email": "ivanenko.oleg.m@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
