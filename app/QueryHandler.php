@@ -46,7 +46,7 @@ class QueryHandler
     public function routes(){
         return [
             // при http://mvc.loc/post/all вызвать app/http/PostController->all()
-            'post/all' => 'PostController@all'
+            '/' => 'SiteController@index'
         ];
     }
 
