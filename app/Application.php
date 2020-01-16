@@ -23,7 +23,6 @@ class Application{
 
     public function run(){
         $this->controller = $this->queryHandler->handle($_SERVER['REQUEST_URI']);
-
         echo $this->controller->runAction();
     }
 

@@ -46,7 +46,7 @@ class QueryHandler
     public function routes(){
         return [
             // при http://mvc.loc/post/all вызвать app/http/PostController->all()
-            '/' => 'SiteController@index'
+            'site/index' => 'SiteController@index'
         ];
     }
 
@@ -63,7 +63,10 @@ class QueryHandler
         $URIComponents = explode('/', $requestURI);
 
         //имя контроллера будет лежать в первой ячейке
-        $controllerID = $URIComponents[1];
+        $controllerID = strlen($URIComponents[1]) > 0 ? $URIComponents[1] : 'site';
+
+//        var_dump($URIComponents);
+//        die();
 
         //проверяем не пусто ли там
         if(!empty($controllerID) && is_string($controllerID)){
@@ -90,13 +93,11 @@ class QueryHandler
 
                 //получаем полный путь к классу контроллера, используя его namespace
                 $controllerNamespace = $this->controllerNamespace.'\\'.$controllerClassName;
-
                 //проверяем существует ли класс контроллера
                 if(class_exists($controllerNamespace)){
 
                     //если класс контроллера сущетсвует - создаем его экземпляр
                     $controllerClass = new $controllerNamespace($actionName);
-
                     //проверяем сущетвует ли в нем метод, одноименный з название экшена
                     if(method_exists($controllerClass, $actionName)){
                         //если существует - возвращаем экземпляр контроллера
