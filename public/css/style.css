@@ -57,7 +57,7 @@ p {
 
 @media (min-width: 992px) {
     .col-md-15 {
-        width: 20%;
+        width: 16.66%;
         float: left;
     }
 }
@@ -380,6 +380,16 @@ p {
   padding: 40px 0px;
   margin: 15px 0px;
   transition: all 0.5s;
+  min-height: 245px;
+}
+
+.step-number {
+  color: black;
+  font-size: 50px;
+}
+
+.portfolio-item {
+  height: 300px;
 }
 
 .what-we-do .list-item .icon {
@@ -454,6 +464,9 @@ p {
 #portfolio .portfolio-item img {
   max-width: 100%;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .owl-pagination {

@@ -69,16 +69,16 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="banner-content">
 <!--                    <h6>Designed With Love</h6>-->
-                    <h2>Название компании</h2>
+                    <h2>Название</h2>
                     <ul class="buttons">
                         <li>
                             <div class="primary-button">
-                                <a href="#about">Download Now</a>
+                                <a href="#portfolio">Наши работы</a>
                             </div>
                         </li>
                         <li>
                             <div class="secondary-button">
-                                <a href="#portfolio">More Details</a>
+                                <a href="#contact-us">Оставить заявку</a>
                             </div>
                         </li>
                     </ul>
@@ -171,8 +171,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h4>What we can do else</h4>
-                    <p>Sed tortor lorem, mollis in fringilla sit amet, accumsan eget turpis. Donec ut sollicitudin quam. Sed tempor porta malesuada. Cras aliquam nisi eget efficitur ultrices. Aenean ac ultricies nisl.</p>
+                    <h4>Этапы Работы</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия.</p>
                 </div>
             </div>
         </div>
@@ -182,52 +182,62 @@
                     <div class="row">
                         <ul class="tabs clearfix" data-tabgroup="second-tab-group">
                             <li class="col-md-15 col-sm-12 col-xs-12">
-                                <a href="#unique" class="active">
+                                <a href="#1" class="active">
                                     <div class="list-item">
                                         <div class="icon">
-                                            <img src="img/first-list-icon.png" alt="">
+                                            <span class="step-number">1</span>
                                         </div>
-                                        <h4>Unique Ideas</h4>
+                                        <h4>Сбор информации</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="col-md-15 col-sm-12 col-xs-12">
-                                <a href="#theme">
+                                <a href="#2">
                                     <div class="list-item">
                                         <div class="icon">
-                                            <img src="img/second-list-icon.png" alt="">
+                                            <span class="step-number">2</span>
                                         </div>
-                                        <h4>Theme Edit</h4>
+                                        <h4>Согласование требований к щиту</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="col-md-15 col-sm-12 col-xs-12">
-                                <a href="#translation">
+                                <a href="#3">
                                     <div class="list-item">
                                         <div class="icon">
-                                            <img src="img/third-list-icon.png" alt="">
+                                            <span class="step-number">3</span>
                                         </div>
-                                        <h4>Translation</h4>
+                                        <h4>Выбор технических средств</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="col-md-15 col-sm-12 col-xs-12">
-                                <a href="#event">
+                                <a href="#4">
                                     <div class="list-item">
                                         <div class="icon">
-                                            <img src="img/fourth-list-icon.png" alt="">
+                                            <span class="step-number">4</span>
                                         </div>
-                                        <h4>Event Meeting</h4>
+                                        <h4>Разработка документации</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="col-md-15 col-sm-12 col-xs-12">
-                                <a href="#photo">
+                                <a href="#5">
                                     <div class="list-item">
                                         <div class="icon">
-                                            <img src="img/fivth-list-icon.png" alt="">
+                                            <span class="step-number">5</span>
                                         </div>
-                                        <h4>HD Photos</h4>
+                                        <h4>Проектирование и проферка</h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-md-15 col-sm-12 col-xs-12">
+                                <a href="#6">
+                                    <div class="list-item">
+                                        <div class="icon">
+                                            <span class="step-number">6</span>
+                                        </div>
+                                        <h4>Доставка</h4>
                                     </div>
                                 </a>
                             </li>
@@ -236,104 +246,133 @@
                 </div>
                 <div class="col-md-12">
                     <section id="second-tab-group" class="tabgroup">
-                        <div id="unique">
+                        <div id="1">
                             <div class="row">
                                 <div class="tab-content-services">
                                     <div class="col-md-6">
                                         <div class="left-text">
-                                            <h4>Unique Ideas</h4>
-                                            <p>Power is a HTML CSS responsive layout from TemplateMo site. You are absolutely free to download, modify and use this template. Please mention your friends about our website. That will be very helpful.
-                                                <br><br>Aenean malesuada pretium lectus, a vulputate ligula rhoncus nec. Curabitur id dapibus risus. Integer malesuada iaculis eros sit amet egestas. Sed efficitur massa ut dolor porta varius. Sed porttitor vitae dolor faucibus pulvinar.</p>
+                                            <h4>Сбор информации</h4>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                            <br>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
                                             <div class="primary-button">
-                                                <a href="#contact-us">Download Now</a>
+                                                <a href="#contact-us">Оставить заявку</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="right-image">
-                                            <img src="img/right-side-image_1.jpg" alt="">
+                                            <img src="img/step1.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="theme">
+                        <div id="2">
                             <div class="row">
                                 <div class="tab-content-services">
                                     <div class="col-md-6">
                                         <div class="left-text">
-                                            <h4>Theme Edit</h4>
-                                            <p>Lomo austin health goth meditation quinoa, banh mi pork belly man bun hella ugh migascardigan gluten-free. Gochujang dreamcatcher tofu brunch banjo. VHS austin cardigan squid poke tumeric humblebrag next level everyday carry biodiesel put a bird on it raw denim. Fanny pack aesthetic kinfolk twee <br><br>succulents roof party wayfarers meggings ugh tumblr shaman kale chips green. Before they sold out live-edge kinfolk man bun pop-up scenester ramps taiyaki tacos raclette mixtape la croix post-ironic leggings. Twee typewriter taxidermy, woke farm-to-table hell of cliche celiac meggings.</p>
+                                            <h4>Согласование требований к щиту</h4>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                            <br>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
                                             <div class="primary-button">
-                                                <a href="#contact-us">Download Now</a>
+                                                <a href="#contact-us">Оставить заявку</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="right-image">
-                                            <img src="img/right-side-image_2.jpg" alt="">
+                                            <img src="img/step1.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="translation">
+                        <div id="3">
                             <div class="row">
                                 <div class="tab-content-services">
                                     <div class="col-md-6">
                                         <div class="left-text">
-                                            <h4>Translation</h4>
-                                            <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa microdosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm-to-table, cold-pressed authen tic. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch.
-                                                <br><br>Aenean malesuada pretium lectus, a vulputate ligula rhoncus nec. Curabitur id dapibus risus. Integer malesuada iaculis eros sit amet egestas. Sed efficitur massa ut dolor porta varius. Sed porttitor vitae dolor faucibus pulvinar.</p>
+                                            <h4>Выбор технических средств</h4>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                            <br>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
                                             <div class="primary-button">
-                                                <a href="#contact-us">Download Now</a>
+                                                <a href="#contact-us">Оставить заявку</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="right-image">
-                                            <img src="img/right-side-image_3.jpg" alt="">
+                                            <img src="img/step1.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="event">
+                        <div id="4">
                             <div class="row">
                                 <div class="tab-content-services">
                                     <div class="col-md-6">
                                         <div class="left-text">
-                                            <h4>Event Meeting</h4>
-                                            <p>Lomo austin health goth meditation quinoa, banh mi pork belly man bun hella ugh migascardigan gluten-free. Gochujang dreamcatcher tofu brunch banjo. VHS austin cardigan squid poke tumeric humblebrag next level everyday carry biodiesel put a bird on it raw denim. Fanny pack aesthetic kinfolk twee <br><br>succulents roof party wayfarers meggings ugh tumblr shaman kale chips green. Before they sold out live-edge kinfolk man bun pop-up scenester ramps taiyaki tacos raclette mixtape la croix post-ironic leggings. Twee typewriter taxidermy, woke farm-to-table hell of cliche celiac meggings.</p>
+                                            <h4>Разработка документации</h4>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                            <br>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
                                             <div class="primary-button">
-                                                <a href="#contact-us">Download Now</a>
+                                                <a href="#contact-us">Оставить заявку</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="right-image">
-                                            <img src="img/right-side-image_4.jpg" alt="">
+                                            <img src="img/step1.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="photo">
+                        <div id="5">
                             <div class="row">
                                 <div class="tab-content-services">
                                     <div class="col-md-6">
                                         <div class="left-text">
-                                            <h4>HD Images</h4>
-                                            <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa microdosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm-to-table, cold-pressed authen tic. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch.
-                                                <br><br>Aenean malesuada pretium lectus, a vulputate ligula rhoncus nec. Curabitur id dapibus risus. Integer malesuada iaculis eros sit amet egestas. Sed efficitur massa ut dolor porta varius. Sed porttitor vitae dolor faucibus pulvinar.</p>
+                                            <h4>Проектирование и проферка</h4>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                            <br>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
                                             <div class="primary-button">
-                                                <a href="#contact-us">Download Now</a>
+                                                <a href="#contact-us">Оставить заявку</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="right-image">
-                                            <img src="img/right-side-image_5.jpg" alt="">
+                                            <img src="img/step1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="6">
+                            <div class="row">
+                                <div class="tab-content-services">
+                                    <div class="col-md-6">
+                                        <div class="left-text">
+                                            <h4>Доставка</h4>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                            <br>
+                                            <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                            <div class="primary-button">
+                                                <a href="#contact-us">Оставить заявку</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right-image">
+                                            <img src="img/step1.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -352,8 +391,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h4>What We Can Do Else</h4>
-                    <p>Aliquam neque neque, commodo in euismod id, lobortis in lacus. Duis interdum sagittis velit, fermentum tincidunt lectus. Nam ornare turpis.</p>
+                    <h4>Выполненные проекты</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия</p>
                 </div>
             </div>
         </div>
@@ -361,52 +400,62 @@
             <div id="owl-portfolio" class="owl-carousel owl-theme imageGallery1">
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/first-portfolio-big.jpg" title=""><img src="img/first-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-1.jpg" title=""><img src="img/portfolio-1.png" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/second-portfolio-big.jpg" title=""><img src="img/second-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-2.jpg" title=""><img src="img/portfolio-2.jpg" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/third-portfolio-big.jpg" title=""><img src="img/third-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-3.jpg" title=""><img src="img/portfolio-3.jpg" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/fourth-portfolio-big.jpg" title=""><img src="img/fourth-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-4.png" title=""><img src="img/portfolio-4.png" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/first-portfolio-big.jpg" data-lightbox="image-1"><img src="img/first-portfolio-item.jpg"></a>
+                        <a href="img/portfolio-1.png" title=""><img src="img/portfolio-1.png" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/second-portfolio-big.jpg" title=""><img src="img/second-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-2.jpg" title=""><img src="img/portfolio-2.jpg" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/first-portfolio-big.jpg" title=""><img src="img/first-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-3.jpg" title=""><img src="img/portfolio-3.jpg" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/third-portfolio-big.jpg" title=""><img src="img/third-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-4.png" title=""><img src="img/portfolio-4.png" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/first-portfolio-big.jpg" data-lightbox="image-1"><img src="img/first-portfolio-item.jpg"></a>
+                        <a href="img/portfolio-1.png" title=""><img src="img/portfolio-1.png" alt="image" /></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="portfolio-item">
-                        <a href="img/fourth-portfolio-big.jpg" title=""><img src="img/fourth-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                        <a href="img/portfolio-2.jpg" title=""><img src="img/portfolio-2.jpg" alt="image" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="portfolio-item">
+                        <a href="img/portfolio-3.jpg" title=""><img src="img/portfolio-3.jpg" alt="image" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="portfolio-item">
+                        <a href="img/portfolio-4.png" title=""><img src="img/portfolio-4.png" alt="image" /></a>
                     </div>
                 </div>
             </div>
@@ -420,8 +469,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h4>Our Blog Entries</h4>
-                    <p>You can feel free to download and use for your websites. Template re-distribution is NOT allowed on any download website.</p>
+                    <h4>Отзывы наших клиентов</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия</p>
                 </div>
             </div>
         </div>
@@ -429,113 +478,113 @@
             <div class="wrapper">
                 <div class="col-md-6">
                     <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                        <li><a href="#tab1" class="active">
-                                shoreditch wolf ethical hashtag
+                        <li>
+                            <a href="#tab1" class="active">
+                                Электрический щит 1
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Admin</li>
-                                    <li><i class="fa fa-calendar"></i>14 November 2020</li>
-                                    <li><i class="fa fa-wechat"></i>12 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                            </a></li>
-                        <li><a href="#tab2">
-                                kickstarter master cleanse scenester
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab2">
+                                Электрический щит 2
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Krist</li>
-                                    <li><i class="fa fa-calendar"></i>08 November 2020</li>
-                                    <li><i class="fa fa-wechat"></i>16 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                            </a></li>
-                        <li><a href="#tab3">
-                                Seitan flexitarian prism shaman
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab3">
+                                Электрический щит 3
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Nanny</li>
-                                    <li><i class="fa fa-calendar"></i>02 November 2020</li>
-                                    <li><i class="fa fa-wechat"></i>9 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                            </a></li>
-                        <li><a href="#tab4">
-                                Fashion axe selvage everyday carry
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab4">
+                                Электрический щит 4
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Krist</li>
-                                    <li><i class="fa fa-calendar"></i>28 October 2020</li>
-                                    <li><i class="fa fa-wechat"></i>11 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                            </a></li>
-                        <li><a href="#tab5">
-                                chambray truffaut godard flannel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab5">
+                                Электрический щит 5
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Admin</li>
-                                    <li><i class="fa fa-calendar"></i>22 October 2020</li>
-                                    <li><i class="fa fa-wechat"></i>24 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                            </a></li>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <div id="first-tab-group" class="tabgroup">
                         <div id="tab1">
-                            <img src="img/blog-post-1.jpg" alt="">
+                            <img src="img/step1.png" alt="">
                             <div class="text-content">
-                                <h4>shoreditch wolf ethical hashtag</h4>
+                                <h4>Электрический щит 1</h4>
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Admin</li>
-                                    <li><i class="fa fa-calendar"></i>14 November 2020</li>
-                                    <li><i class="fa fa-wechat"></i>12 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                                <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa micro dosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm to table, cold pressed authen tic. Mixtape hella beard meditation, Pok pok meh tote bag single-origin coffee, everyday carry unicorn raw denim distillery cray pork belly taxidermy organic polaroid.</p>
-                                <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
                             </div>
                         </div>
                         <div id="tab2">
-                            <img src="img/blog-post-2.jpg" alt="">
+                            <img src="img/step1.png" alt="">
                             <div class="text-content">
-                                <h4>kickstarter master cleanse scenester</h4>
+                                <h4>Электрический щит 2</h4>
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Krist</li>
-                                    <li><i class="fa fa-calendar"></i>08 November 2020</li>
-                                    <li><i class="fa fa-wechat"></i>16 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                                <p>Artisan messenger bag gochujang tote bag, leggings synth literally unicorn street art ramps slow-carb everyday carry mixtape. Tbh synth hell of kombucha hot chicken dreamcatcher gentrify organic asymmetrical gastropub VHS photo booth raw denim. Vape edison bulb glossier air plant heirloom readymade bitters air plant pug.</p>
-                                <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
                             </div>
                         </div>
                         <div id="tab3">
-                            <img src="img/blog-post-3.jpg" alt="">
+                            <img src="img/step1.png" alt="">
                             <div class="text-content">
-                                <h4>Seitan flexitarian prism shaman</h4>
+                                <h4>Электрический щит 3</h4>
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Nanny</li>
-                                    <li><i class="fa fa-calendar"></i>02 November 2020</li>
-                                    <li><i class="fa fa-wechat"></i>9 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                                <p>Cronut slow-carb 90's irony cred fashion axe jean shorts cardigan wayfarers. Typewriter retro plaid jianbing 90's taiyaki, sriracha vegan fam. Letterpress cornhole mixtape ethical celiac distillery echo park. Selvage readymade cornhole vape. Semiotics iPhone mumblecore, sartorial succulents slow-carb offal pabst trust fund brunch.</p>
-                                <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
                             </div>
                         </div>
                         <div id="tab4">
-                            <img src="img/blog-post-4.jpg" alt="">
+                            <img src="img/step1.png" alt="">
                             <div class="text-content">
-                                <h4>Fashion axe selvage everyday carry</h4>
+                                <h4>Электрический щит 4</h4>
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Krist</li>
-                                    <li><i class="fa fa-calendar"></i>28 October 2020</li>
-                                    <li><i class="fa fa-wechat"></i>11 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                                <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa micro dosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm to table, cold pressed authen tic. Mixtape hella beard meditation, Pok pok meh tote bag single-origin coffee, everyday carry unicorn raw denim distillery cray pork belly taxidermy organic polaroid.</p>
-                                <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
                             </div>
                         </div>
                         <div id="tab5">
-                            <img src="img/blog-post-5.jpg" alt="">
+                            <img src="img/step1.png" alt="">
                             <div class="text-content">
-                                <h4>chambray truffaut godard flannel</h4>
+                                <h4>Электрический щит 5</h4>
                                 <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Admin</li>
-                                    <li><i class="fa fa-calendar"></i>22 October 2020</li>
-                                    <li><i class="fa fa-wechat"></i>24 Comments</li>
+                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
+                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
                                 </ul>
-                                <p>Cronut slow-carb 90's irony cred fashion axe jean shorts cardigan wayfarers. Typewriter retro plaid jianbing 90's taiyaki, sriracha vegan fam. Letterpress cornhole mixtape ethical celiac distillery echo park. Selvage readymade cornhole vape. Semiotics iPhone mumblecore, sartorial succulents slow-carb offal pabst trust fund brunch.</p>
-                                <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
+                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
                             </div>
                         </div>
                     </div>
