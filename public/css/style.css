@@ -352,6 +352,9 @@ p {
   background-color: transparent;
 }
 
+#about .service-item .icon svg {
+  height: 70px;
+}
 
 
 
