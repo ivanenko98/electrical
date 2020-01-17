@@ -65,9 +65,6 @@ class QueryHandler
         //имя контроллера будет лежать в первой ячейке
         $controllerID = strlen($URIComponents[1]) > 0 ? $URIComponents[1] : 'site';
 
-//        var_dump($URIComponents);
-//        die();
-
         //проверяем не пусто ли там
         if(!empty($controllerID) && is_string($controllerID)){
 
@@ -77,6 +74,8 @@ class QueryHandler
             //получаем знаечение роутов, которые прописывали вручную в функции routes()
             $routes = $this->routes();
 
+//            var_dump($actionID, $controllerID, $routes, array_key_exists("$controllerID/$actionID", $routes));
+
             //если запрошенный роут существует - продолжем, если нет - возвращаем ошибку
             if(array_key_exists("$controllerID/$actionID", $routes)){
 
@@ -85,7 +84,7 @@ class QueryHandler
 
                 //разделяем их по знаку @
                 $routeParams = explode('@', $route);
-
+//var_dump($routeParams);
                 //название класса контроллера лежит в нулевой ячейке
                 $controllerClassName = $routeParams[0];
                 //название экшена (метода контроллера) лежит в нулевой ячейке
@@ -93,19 +92,26 @@ class QueryHandler
 
                 //получаем полный путь к классу контроллера, используя его namespace
                 $controllerNamespace = $this->controllerNamespace.'\\'.$controllerClassName;
+
+//                var_dump(class_exists($controllerNamespace));
+//                die();
                 //проверяем существует ли класс контроллера
                 if(class_exists($controllerNamespace)){
 
                     //если класс контроллера сущетсвует - создаем его экземпляр
                     $controllerClass = new $controllerNamespace($actionName);
+
                     //проверяем сущетвует ли в нем метод, одноименный з название экшена
                     if(method_exists($controllerClass, $actionName)){
+
                         //если существует - возвращаем экземпляр контроллера
                         return $controllerClass;
                     }
 
                 }
             }
+
+
         }
 
         //если на жтом этапе что-то где-то пошло не так - пользователь ввел неправильную URL

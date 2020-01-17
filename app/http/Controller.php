@@ -29,8 +29,7 @@ abstract class Controller
          *
          */
         $viewPath = $_SERVER['DOCUMENT_ROOT']."/resources/views/$viewID.php";
-
-
+        
         //проверяем существует ли такой файл
         if(file_exists($viewPath)){
             //создаем новый обьект класса View и передаем ему полный путь к файлу с шаблоном представления

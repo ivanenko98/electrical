@@ -3,13 +3,10 @@
 
 namespace app\http;
 
-class SiteController
+class SiteController extends Controller
 {
     public function index()
     {
-        var_dump(1);
-        die();
-
         return $this->render('site/index', compact([]));
     }
 }
