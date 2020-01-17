@@ -377,7 +377,7 @@ p {
 .what-we-do .list-item {
   background-color: #f4f4f4;
   text-align: center;
-  padding: 40px 0px;
+  padding: 40px 10px;
   margin: 15px 0px;
   transition: all 0.5s;
   min-height: 245px;
@@ -405,7 +405,7 @@ p {
 .what-we-do .list-item h4 {
   margin-top: 20px;
   margin-bottom: 0px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -661,7 +661,7 @@ p {
   outline: none;
   border: none;
   box-shadow: none;
-  height: 165px;
+  height: 110px;
   max-height: 220px;
   width: 100%;
   max-width: 100%;
@@ -751,7 +751,19 @@ footer .back-to-top i {
 
 /* RESPONSIVE */
 
-@media (max-width: 991px){
+@media (max-width: 1200px) {
+  .what-we-do .list-item h4 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .menu-first li a {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 992px){
   footer {
     text-align: center;
   }

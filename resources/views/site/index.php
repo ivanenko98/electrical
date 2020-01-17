@@ -32,11 +32,11 @@
 <div class="site-main" id="sTop">
     <div class="site-header">
         <div class="main-header">
-            <div class="container">
+            <div class="container main-menu-wrap">
                 <div id="menu-wrapper">
                     <div class="row">
                         <nav class="navbar navbar-inverse" role="navigation">
-                            <div class="navbar-header">
+                            <div class="navbar-header" >
                                 <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
@@ -227,7 +227,7 @@
                                         <div class="icon">
                                             <span class="step-number">5</span>
                                         </div>
-                                        <h4>Проектирование и проферка</h4>
+                                        <h4>Проектирование и проверка</h4>
                                     </div>
                                 </a>
                             </li>
@@ -600,58 +600,48 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h4>Contact Us</h4>
-                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.</p>
+                    <h4>Оставьте заявку, мы перезвоним Вам!</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <form id="contact" action="#" method="post">
                     <div class="row">
                         <div class="col-md-6">
                             <fieldset>
-                                <input name="name" type="text" class="form-control" id="name" placeholder="Name..." required="">
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Имя *" required="">
                             </fieldset>
                         </div>
                         <div class="col-md-6">
                             <fieldset>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email..." required="">
+                                <input name="phone" type="phone" class="form-control" id="phone" placeholder="Номер телефона *" required="">
                             </fieldset>
                         </div>
                         <div class="col-md-6">
                             <fieldset>
-                                <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Електронный адрес">
                             </fieldset>
                         </div>
                         <div class="col-md-6">
                             <fieldset>
-                                <input name="phone" type="phone" class="form-control" id="phone" placeholder="Phone..." required="">
+                                <input name="subject" type="text" class="form-control" id="subject" placeholder="Тип монтажа">
+                            </fieldset>
+                        </div>
+
+                        <div class="col-md-12">
+                            <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Особенности монтажа"></textarea>
                             </fieldset>
                         </div>
                         <div class="col-md-12">
                             <fieldset>
-                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message..." required=""></textarea>
-                            </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                            <fieldset>
-                                <button type="submit" id="form-submit" class="btn">Send your message</button>
+                                <button type="submit" id="form-submit" class="btn">Отправить</button>
                             </fieldset>
                         </div>
                     </div>
                 </form>
-            </div>
-            <div class="col-md-6">
-                <div id="map">
-                    <!-- How to change your own map point
-                            1. Go to Google Maps
-                            2. Click on your location point
-                            3. Click "Share" and choose "Embed map" tab
-                            4. Copy only URL and paste it within the src="" field below
-                    -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="395" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
             </div>
         </div>
     </div>
@@ -661,22 +651,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12">
-                <p>Copyright &copy; 2020 Company Name <br>
-                    Design: TemplateMo</p>
+                <p>Copyright &copy; 2020 Название</p>
             </div>
             <div class="col-md-4 col-sm-12">
                 <ul class="social-icons">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Instagram</a></li>
+                    <li><a href="tel:+380682157238">Тел. +380 68 215 7238</a></li>
+                    <li><a href="mailto:email@gmail.com">email@gmail.com</a></li>
                 </ul>
             </div>
             <div class="col-md-2 col-md-offset-2 col-sm-12">
                 <div class="back-to-top">
                     <a href="#top">
                         <i class="fa fa-angle-up"></i>
-                        back to top
+                        Наверх
                     </a>
                 </div>
             </div>
