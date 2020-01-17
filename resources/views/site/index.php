@@ -5,13 +5,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Название</title>
+    <title>Щиты Электрические</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--
-    Power Template
-    https://templatemo.com/tm-508-power
-    -->
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.ico"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
