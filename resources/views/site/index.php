@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Power - Bootstrap HTML5 Template</title>
+    <title>Название</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--
@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/templatemo_misc.css">
-    <link rel="stylesheet" href="css/templatemo_style.css">
+    <link rel="stylesheet" href="css/misc.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/owl-carousel.css">
 
     <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
@@ -43,15 +43,14 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a href="#top" class="navbar-brand">Power</a>
+                                <a href="#top" class="navbar-brand">Название</a>
                                 <div id="main-nav" class="collapse navbar-collapse">
                                     <ul class="menu-first nav navbar-nav" style="margin-right: 20px;">
-                                        <li class="active"><a href="#">Home</a></li>
-                                        <li><a href="#about">About Us</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#blog">Blog Entries</a></li>
-                                        <li><a href="https://www.google.com" class="external">External</a></li>
-                                        <li><a href="#contact-us">Contact</a></li>
+                                        <li class="active"><a href="#">Домашняя</a></li>
+                                        <li><a href="#about-intro">О Нас</a></li>
+                                        <li><a href="#portfolio">Наши Работы</a></li>
+                                        <li><a href="#blog">Отзывы</a></li>
+                                        <li><a href="#contact-us">Оставить заявку</a></li>
                                     </ul>
                                 </div> <!-- /.main-menu -->
                             </div>
@@ -69,8 +68,8 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="banner-content">
-                    <h6>Designed With Love</h6>
-                    <h2>The Power Theme</h2>
+<!--                    <h6>Designed With Love</h6>-->
+                    <h2>Название компании</h2>
                     <ul class="buttons">
                         <li>
                             <div class="primary-button">
@@ -90,13 +89,13 @@
 </div>
 
 
-<div class="intro">
+<div class="intro" id="about-intro">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h4>Web Design &amp; Development Crew!</h4>
-                <h6>WE CREATE HTML CSS TEMPLATE</h6>
-                <div class="border-button"><a href="#portfolio">Discover More</a></div>
+                <h4>Почему вы должны выбрать именно нас?</h4>
+                <h6>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения. </h6>
+                <div class="border-button"><a href="#portfolio">Наши Работы</a></div>
             </div>
         </div>
     </div>
@@ -111,8 +110,8 @@
                     <div class="icon">
                         <img src="img/first-service-icon.png" alt="">
                     </div>
-                    <h4>Mobile Ready</h4>
-                    <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                    <h4>Конкурентная цена</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. </p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -120,8 +119,8 @@
                     <div class="icon">
                         <img src="img/second-service-icon.png" alt="">
                     </div>
-                    <h4>HTML CSS</h4>
-                    <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                    <h4>Сборка щита професиональными инструментами</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. </p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -129,8 +128,38 @@
                     <div class="icon">
                         <img src="img/third-service-icon.png" alt="">
                     </div>
-                    <h4>Responsive Design</h4>
-                    <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                    <h4>Соблюдение технологий монтажа</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-item four-service">
+                    <div class="icon">
+                        <img src="img/first-service-icon.png" alt="">
+                    </div>
+                    <h4>Оборудование от проверенных производителей</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item five-service">
+                    <div class="icon">
+                        <img src="img/second-service-icon.png" alt="">
+                    </div>
+                    <h4>Поддержка после установки</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item six-service">
+                    <div class="icon">
+                        <img src="img/third-service-icon.png" alt="">
+                    </div>
+                    <h4>Гарантийные обязательства</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. </p>
                 </div>
             </div>
         </div>
