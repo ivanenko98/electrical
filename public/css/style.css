@@ -826,13 +826,11 @@ footer .back-to-top i {
 
 }
 
-@media (max-width: 385px){
-
-  
-
+@media (max-width: 490px){
+  .banner-content h2 {
+    font-size: 43px;
+  }
 }
-
-
 
 /* LIGHT BOX */
 
