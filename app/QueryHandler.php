@@ -45,11 +45,11 @@ class QueryHandler
     //сюда прописываем по какой URL мы должны вызывать какой контроллер и экшен в нем
     public function routes(){
         return [
-            // при http://mvc.loc/post/all вызвать app/http/PostController->all()
             'site/index' => 'SiteController@index',
             'auth/login' => 'AuthController@login',
             'auth/logout' => 'AuthController@logout',
             'admin/dashboard' => 'AdminController@dashboard',
+            'site/create-request' => 'SiteController@createRequest',
         ];
     }
 

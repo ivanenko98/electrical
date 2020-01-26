@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/misc.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 
     <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
 </head>
@@ -604,7 +605,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <form id="contact" action="#" method="post">
+                <form id="contact" action="/site/create-request" method="post">
                     <div class="row">
                         <div class="col-md-6">
                             <fieldset>
@@ -677,10 +678,10 @@
 <!-- Google Map -->
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="js/vendor/jquery.gmap3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {
-
         // mobile nav toggle
         $('#nav-toggle').on('click', function (event) {
             event.preventDefault();
@@ -688,6 +689,24 @@
         });
     });
 </script>
+
+<?php if (isset($_SESSION['status']) && $_SESSION['status'] == 'success') { ?>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            toastr.success('Ваша заявка успешно отправлена!');
+        });
+    </script>
+<?php } ?>
+
+<?php if (isset($_SESSION['status']) && $_SESSION['status'] == 'error') { ?>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            toastr.error('Что-то пошло не так, попробуйте позже!');
+        });
+    </script>
+<?php } ?>
+
+<?php unset($_SESSION['status']); ?>
 
 </body>
 </html>

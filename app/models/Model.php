@@ -22,11 +22,34 @@ abstract class Model implements ModelInterface
         $sql = 'SELECT * FROM `' . static::tableName() . '`';
         //если есть условие - добавляем его к запросу
         if ($condition) {
-            $sql .= "WHERE $condition";
+            $sql .= " $condition";
         }
+
         $PDOResult = Application::$pdo->query($sql);
         //создаем экземпляры класса модели и возвращаем из как результат поиска
         return self::createModels($PDOResult->fetchAll(\PDO::FETCH_ASSOC));
+    }
+
+    public static function create($data)
+    {
+        $fields = '';
+        $values = '';
+
+        foreach ($data as $field => $value) {
+            if (array_key_last($data) == $field) {
+                $fields .= '`'.$field.'`';
+                $values .= "'".$value."'";
+            } else {
+                $fields .= "`$field`".", ";
+                $values .= "'".$value."', ";
+            }
+        }
+
+        $sql = ' INSERT INTO `' . static::tableName() . '` ('.$fields.') VALUES ('.$values.')';
+
+         Application::$pdo->query($sql);
+
+        return self::find('ORDER BY id DESC LIMIT 1');
     }
 
     public static function createModels(array $queryResults)

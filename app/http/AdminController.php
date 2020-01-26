@@ -3,13 +3,17 @@
 
 namespace app\http;
 
+use app\models\Request;
+
 class AdminController extends Controller
 {
     public function dashboard()
     {
         $this->isAdmin();
 
-        return $this->render('admin/dashboard', compact([]));
+        $requests = Request::find('ORDER BY id DESC');
+
+        return $this->render('admin/dashboard', compact('requests'));
     }
 
     protected function isAdmin()

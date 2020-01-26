@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.ico"/>
 
     <title>Админ панель</title>
 
@@ -87,17 +87,25 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                             <th>Електронный адрес</th>
                                             <th>Тип монтажа</th>
                                             <th>Особенности</th>
+                                            <th>Дата</th>
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <tr>
-                                            <td>-</td>
-                                            <td>-</td>
-                                            <td>-</td>
-                                            <td>-</td>
-                                            <td>-</td>
-                                            <td>-</td>
-                                        </tr>
+                                        <?php
+
+                                        foreach ($requests as $request) {
+                                            echo "<tr>
+                                                <td>$request->id</td>
+                                                <td>$request->name</td>
+                                                <td>$request->phone</td>
+                                                <td>$request->email</td>
+                                                <td>$request->subject</td>
+                                                <td>$request->message</td>
+                                                <td>$request->created_at</td>
+                                            </tr>";
+                                        }
+
+                                        ?>
 <!--                                        @foreach($products as $product)-->
 <!--                                        <tr>-->
 <!--                                            <td>{{ $product->id }}</td>-->

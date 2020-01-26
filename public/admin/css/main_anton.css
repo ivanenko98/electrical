@@ -143,6 +143,11 @@ body {
 .user-panel img {
     height: auto;
     max-width: 2.1rem;
+    background-color: #ffffff;
+}
+
+.login-wrap {
+    margin-top: 100px;
 }
 
 @media(max-width: 991px) {

@@ -17,6 +17,7 @@ class AuthController extends Controller
                 $_SESSION["auth"] = true;
                 header('Location: http://'.$_SERVER['HTTP_HOST'].'/admin/dashboard');
             } else {
+                $_SESSION['status'] = 'error';
                 header('Location: http://'.$_SERVER['HTTP_HOST'].'/auth/login');
             }
         } else {
