@@ -1,11 +1,3 @@
-/*
-
-Power Template
-
-https://templatemo.com/tm-508-power
-
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -822,8 +814,6 @@ footer .back-to-top i {
   .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #f2745f;
   }
-  
-
 }
 
 @media (max-width: 490px){

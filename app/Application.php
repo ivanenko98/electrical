@@ -17,7 +17,6 @@ class Application{
         $this->config = $config;
 
         $this->queryHandler = QueryHandler::getInstance();
-
         $this->connectDatabase($this->config['host'],$this->config['username'],$this->config['password'],$this->config['database']);
     }
 
