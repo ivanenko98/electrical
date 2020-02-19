@@ -14,7 +14,7 @@ class SiteController extends Controller
 
     public function createRequest()
     {
-        try {
+//        try {
             Request::create([
                 'name' => $_POST['name'],
                 'email' => $_POST['email'],
@@ -24,9 +24,9 @@ class SiteController extends Controller
             ]);
 
             $_SESSION['status'] = 'success';
-        } catch (\Exception $e) {
-            $_SESSION['status'] = 'error';
-        }
+//        } catch (\Exception $e) {
+//            $_SESSION['status'] = 'error';
+//        }
 
         header('Location: http://'.$_SERVER['HTTP_HOST']);
     }

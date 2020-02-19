@@ -36,7 +36,7 @@ abstract class Model implements ModelInterface
         $values = '';
 
         foreach ($data as $field => $value) {
-            if (array_key_last($data) == $field) {
+            if (end(array_keys($data)) == $field) {
                 $fields .= '`'.$field.'`';
                 $values .= "'".$value."'";
             } else {
@@ -44,10 +44,10 @@ abstract class Model implements ModelInterface
                 $values .= "'".$value."', ";
             }
         }
-
+        
         $sql = ' INSERT INTO `' . static::tableName() . '` ('.$fields.') VALUES ('.$values.')';
 
-         Application::$pdo->query($sql);
+        Application::$pdo->query($sql);
 
         return self::find('ORDER BY id DESC LIMIT 1');
     }

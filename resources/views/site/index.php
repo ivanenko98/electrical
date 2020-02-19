@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Щиты Электрические</title>
+    <title>Портал автоматизации</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/jpg" href="/favicon.ico"/>
@@ -41,13 +41,17 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a href="#top" class="navbar-brand">Название</a>
+                                <a href="#top" class="navbar-brand" id="logo">
+                                    <span>
+                                        Портал автоматизации
+                                    </span>
+                                </a>
                                 <div id="main-nav" class="collapse navbar-collapse">
                                     <ul class="menu-first nav navbar-nav" style="margin-right: 20px;">
-                                        <li class="active"><a href="#">Домашняя</a></li>
+                                        <li class="active"><a href="#">Главная</a></li>
                                         <li><a href="#about-intro">О Нас</a></li>
-                                        <li><a href="#portfolio">Наши Работы</a></li>
-                                        <li><a href="#blog">Отзывы</a></li>
+                                        <li><a href="#portfolio">Услуги</a></li>
+                                        <li><a href="#contacts">Контакты</a></li>
                                         <li><a href="#contact-us">Оставить заявку</a></li>
                                     </ul>
                                 </div> <!-- /.main-menu -->
@@ -67,7 +71,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="banner-content">
 <!--                    <h6>Designed With Love</h6>-->
-                    <h2>Название</h2>
+                    <h2>Портал автоматизации</h2>
                     <ul class="buttons">
                         <li>
                             <div class="primary-button">
@@ -384,206 +388,241 @@
 </div>
 
 
-<section id="portfolio" class="portfolio-section">
+<div class="second-tabs-content what-we-do" id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h4>Выполненные проекты</h4>
-                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="owl-portfolio" class="owl-carousel owl-theme imageGallery1">
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-1.jpg" title=""><img src="img/portfolio-1.png" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-2.jpg" title=""><img src="img/portfolio-2.jpg" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-3.jpg" title=""><img src="img/portfolio-3.jpg" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-4.png" title=""><img src="img/portfolio-4.png" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-1.png" title=""><img src="img/portfolio-1.png" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-2.jpg" title=""><img src="img/portfolio-2.jpg" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-3.jpg" title=""><img src="img/portfolio-3.jpg" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-4.png" title=""><img src="img/portfolio-4.png" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-1.png" title=""><img src="img/portfolio-1.png" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-2.jpg" title=""><img src="img/portfolio-2.jpg" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-3.jpg" title=""><img src="img/portfolio-3.jpg" alt="image" /></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="portfolio-item">
-                        <a href="img/portfolio-4.png" title=""><img src="img/portfolio-4.png" alt="image" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="tabs-content" id="blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-heading">
-                    <h4>Отзывы наших клиентов</h4>
-                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия</p>
+                    <h4>Услуги</h4>
+                    <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="wrapper">
-                <div class="col-md-6">
-                    <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                        <li>
-                            <a href="#tab1" class="active">
-                                Электрический щит 1
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#tab2">
-                                Электрический щит 2
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#tab3">
-                                Электрический щит 3
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#tab4">
-                                Электрический щит 4
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#tab5">
-                                Электрический щит 5
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-md-12">
+                    <div class="row">
+                        <ul class="tabs-services clearfix services" data-tabgroup="second-tab-group2">
+                            <li class="service-item">
+                                <a href="#info" class="active">
+                                    <div class="list-item">
+                                        <div class="icon">
+                                            <span class="step-number">1</span>
+                                        </div>
+                                        <h4>Электромонтажные работы</h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="service-item">
+                                <a href="#requirements">
+                                    <div class="list-item">
+                                        <div class="icon">
+                                            <span class="step-number">2</span>
+                                        </div>
+                                        <h4>Электрощиты распределительные, силовые</h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="service-item">
+                                <a href="#technical">
+                                    <div class="list-item">
+                                        <div class="icon">
+                                            <span class="step-number">3</span>
+                                        </div>
+                                        <h4>Автоматизация систем управления</h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="service-item">
+                                <a href="#develop_documentation">
+                                    <div class="list-item">
+                                        <div class="icon">
+                                            <span class="step-number">4</span>
+                                        </div>
+                                        <h4>Системы видеонаблюдения</h4>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div id="first-tab-group" class="tabgroup">
-                        <div id="tab1">
-                            <img src="img/step1.png" alt="">
-                            <div class="text-content">
-                                <h4>Электрический щит 1</h4>
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
-                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
+                <div class="col-md-12">
+                    <section id="second-tab-group2" class="tabgroup-services">
+                        <div id="info">
+                            <div class="row">
+                                <div class="tab-content-services">
+                                    <div class="col-md-6">
+                                        <div class="left-text">
+                                            <h4>Электромонтажные работы</h4>
+                                            <p>
+                                                <p>- разметка стен для штроб или коммуникаций,</p>
+                                                <p>- установка шкафов</p>
+                                                <p>-разметка розеток, выключателей, выводов, коммутационных коробок и т.д</p>
+                                                <p>-пробивка отверстий в стенах, штробление,</p>
+                                                <p>-крепеж проводов, кабелей, шкафов.</p>
+                                                <p>-монтаж коробок распределительных, установочных и коммутация в них.</p>
+                                                <p>-установка оборудования в силовых и распределительных шкафах.</p>
+                                                <p>-крепление к поверхностям розеток, выключателей, светильников, пускового оборудования.</p>
+                                                <p>-подключение техники и оборудования.</p>
+                                                <p>-работы по заземлению и молниезащите.</p>
+                                                <p>-монтаж и запуск средств автоматизации.</p>
+                                                <p>-изготовление и передача заказчику технической документации.</p>
+                                            </p>
+                                            <div class="primary-button">
+                                                <a href="#contact-us">Оставить заявку</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right-image">
+                                            <img src="img/step1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div id="tab2">
-                            <img src="img/step1.png" alt="">
-                            <div class="text-content">
-                                <h4>Электрический щит 2</h4>
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
-                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
+                        <div id="requirements">
+                            <div class="row">
+                                <div class="tab-content-services">
+                                    <div class="col-md-6">
+                                        <div class="left-text">
+                                            <h4>Электрощиты распределительные, силовые</h4>
+                                            <p>
+                                                <p>- ЩО-90 – РУ-0,4</p>
+                                                <p>- ВРУ – Вводно - распеделительные устройства</p>
+                                                <p>- СПМ                – Шкафы силовые</p>
+                                                <p>- ПР -11              – Шкафы силовые</p>
+                                                <p>- ЯВУ                   – Ящики вводно-учетные</p>
+                                                <p>- ЩР                     – Щиты распределительные</p>
+                                                <p>- ЩО                    – Щиты освещения</p>
+                                                <p>- Я5000               – Ящики управления двигателем</p>
+                                                <p>- АВР                    – Автоматический ввод резерва</p>
+                                            </p>
+                                            <div class="primary-button">
+                                                <a href="#contact-us">Оставить заявку</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right-image">
+                                            <img src="img/step1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div id="tab3">
-                            <img src="img/step1.png" alt="">
-                            <div class="text-content">
-                                <h4>Электрический щит 3</h4>
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
-                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
+                        <div id="technical">
+                            <div class="row">
+                                <div class="tab-content-services">
+                                    <div class="col-md-6">
+                                        <div class="left-text">
+                                            <h4>Автоматизация систем управления</h4>
+                                            <p>
+                                                <p>- анализ системы</p>
+                                                <p>- разработка вариантов концепции</p>
+                                                <p>- Выбор, расчет технических средств автоматизации</p>
+                                                <p>- Проэктирование системы автоматизации</p>
+                                                <p>- комплектация оборудования, материалов</p>
+                                                <p>- Монтаж</p>
+                                                <p>- Программирование</p>
+                                                <p>- SCADA система</p>
+                                                <p>- Пуско-наладка системы автоматизации</p>
+                                                <p>- Ввод в эксплуатацию</p>
+                                                <p>- Гарантийное обслуживание</p>
+                                            </p>
+                                            <div class="primary-button">
+                                                <a href="#contact-us">Оставить заявку</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right-image">
+                                            <img src="img/step1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div id="tab4">
-                            <img src="img/step1.png" alt="">
-                            <div class="text-content">
-                                <h4>Электрический щит 4</h4>
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
-                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
+                        <div id="develop_documentation">
+                            <div class="row">
+                                <div class="tab-content-services">
+                                    <div class="col-md-6">
+                                        <div class="left-text">
+                                            <h4>Системы видеонаблюдения</h4>
+                                            <p>
+                                                <p>- Проектирование и составление сметы. На данном этапе выполняется осмотр объекта, определение оптимальных углов обзора, выбор мест установки видеокамер, планировка коммуникаций и расчет всех будущих расходов.</p>
+                                                <p>- Выбор оборудования. Любая система видеонаблюдения обязательно включает в себя видеокамеру, видеорегистратор, монитор и блок бесперебойного питания. Каждый элемент выполняет определенные функции, поэтому на данном этапе специалисты подбирают наиболее подходящую конфигурацию, обладающую оптимальным соотношением стоимости и характеристик. После согласования сроков монтажа осуществляется заключение договора и его утверждение обеими сторонами.</p>
+                                                <p>- Монтаж. Подразумевает прокладку кабелей, установку оборудования и проверку его работоспособности.</p>
+                                                <p>- Пуско-наладочные работы. На данном этапе программисты устанавливают специальное программное обеспечение, настраивают видеокамеры, выполняют отладку оборудования и сдают объект заказчику.</p>
+                                                <p>- Модернизация и обслуживание действующих систем видеонаблюдения.</p>
+                                            </p>
+                                            <div class="primary-button">
+                                                <a href="#contact-us">Оставить заявку</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right-image">
+                                            <img src="img/step1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div id="tab5">
-                            <img src="img/step1.png" alt="">
-                            <div class="text-content">
-                                <h4>Электрический щит 5</h4>
-                                <ul class="info-post">
-                                    <li><i class="fa fa-user"></i>Василий Иванов</li>
-                                    <li><i class="fa fa-calendar"></i>14 Ноября 2019</li>
-                                </ul>
-                                <p>Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</p>
-                                <div class="primary-button"><a href="#contact-us">Оставить заявку</a></div>
-                            </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="tabs-content" id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h4>Свяжитесь с нами удобным для вас способом</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="wrapper">
+                <div class="col-lg-4 d-flex flex-column address-wrap">
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="icon">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone-square-alt" class="svg-inline--fa fa-phone-square-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-16.39 307.37l-15 65A15 15 0 0 1 354 416C194 416 64 286.29 64 126a15.7 15.7 0 0 1 11.63-14.61l65-15A18.23 18.23 0 0 1 144 96a16.27 16.27 0 0 1 13.79 9.09l30 70A17.9 17.9 0 0 1 189 181a17 17 0 0 1-5.5 11.61l-37.89 31a231.91 231.91 0 0 0 110.78 110.78l31-37.89A17 17 0 0 1 299 291a17.85 17.85 0 0 1 5.91 1.21l70 30A16.25 16.25 0 0 1 384 336a17.41 17.41 0 0 1-.39 3.37z"></path></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h5>+380 95 217 3325</h5>
+                            <p>текст</p>
+                        </div>
+                    </div>
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="icon">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="at" class="svg-inline--fa fa-at fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z"></path></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h5>email@gmail.com</h5>
+                            <p>текст</p>
+                        </div>
+                    </div>
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="icon">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h5>@test</h5>
+                            <p>текст</p>
+                        </div>
+                    </div>
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="icon">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="viber" class="svg-inline--fa fa-viber fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M444 49.9C431.3 38.2 379.9.9 265.3.4c0 0-135.1-8.1-200.9 52.3C27.8 89.3 14.9 143 13.5 209.5c-1.4 66.5-3.1 191.1 117 224.9h.1l-.1 51.6s-.8 20.9 13 25.1c16.6 5.2 26.4-10.7 42.3-27.8 8.7-9.4 20.7-23.2 29.8-33.7 82.2 6.9 145.3-8.9 152.5-11.2 16.6-5.4 110.5-17.4 125.7-142 15.8-128.6-7.6-209.8-49.8-246.5zM457.9 287c-12.9 104-89 110.6-103 115.1-6 1.9-61.5 15.7-131.2 11.2 0 0-52 62.7-68.2 79-5.3 5.3-11.1 4.8-11-5.7 0-6.9.4-85.7.4-85.7-.1 0-.1 0 0 0-101.8-28.2-95.8-134.3-94.7-189.8 1.1-55.5 11.6-101 42.6-131.6 55.7-50.5 170.4-43 170.4-43 96.9.4 143.3 29.6 154.1 39.4 35.7 30.6 53.9 103.8 40.6 211.1zm-139-80.8c.4 8.6-12.5 9.2-12.9.6-1.1-22-11.4-32.7-32.6-33.9-8.6-.5-7.8-13.4.7-12.9 27.9 1.5 43.4 17.5 44.8 46.2zm20.3 11.3c1-42.4-25.5-75.6-75.8-79.3-8.5-.6-7.6-13.5.9-12.9 58 4.2 88.9 44.1 87.8 92.5-.1 8.6-13.1 8.2-12.9-.3zm47 13.4c.1 8.6-12.9 8.7-12.9.1-.6-81.5-54.9-125.9-120.8-126.4-8.5-.1-8.5-12.9 0-12.9 73.7.5 133 51.4 133.7 139.2zM374.9 329v.2c-10.8 19-31 40-51.8 33.3l-.2-.3c-21.1-5.9-70.8-31.5-102.2-56.5-16.2-12.8-31-27.9-42.4-42.4-10.3-12.9-20.7-28.2-30.8-46.6-21.3-38.5-26-55.7-26-55.7-6.7-20.8 14.2-41 33.3-51.8h.2c9.2-4.8 18-3.2 23.9 3.9 0 0 12.4 14.8 17.7 22.1 5 6.8 11.7 17.7 15.2 23.8 6.1 10.9 2.3 22-3.7 26.6l-12 9.6c-6.1 4.9-5.3 14-5.3 14s17.8 67.3 84.3 84.3c0 0 9.1.8 14-5.3l9.6-12c4.6-6 15.7-9.8 26.6-3.7 14.7 8.3 33.4 21.2 45.8 32.9 7 5.7 8.6 14.4 3.8 23.6z"></path></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h5>+380 95 217 3325</h5>
+                            <p>текст</p>
                         </div>
                     </div>
                 </div>
@@ -649,11 +688,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12">
-                <p>Copyright &copy; 2020 Название</p>
+                <p>Copyright &copy; 2020 Портал автоматизации</p>
             </div>
             <div class="col-md-4 col-sm-12">
                 <ul class="social-icons">
-                    <li><a href="tel:+380682157238">Тел. +380 68 215 7238</a></li>
+                    <li><a href="tel:+380952173325">Тел. +380 95 217 3325</a></li>
                     <li><a href="mailto:email@gmail.com">email@gmail.com</a></li>
                 </ul>
             </div>
