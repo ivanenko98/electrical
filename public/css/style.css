@@ -365,9 +365,13 @@ p {
   color: #121212;
 }
 
-.what-we-do .tabs .active .list-item {
+.what-we-do .tabs-steps .active .list-item {
   background-color: #f2745f!important;
   color: #fff!important;
+}
+
+.what-we-do .tabs-steps .active .list-item .icon {
+  background-color: #fff;
 }
 
 .what-we-do .tabs-services .active .list-item {
@@ -389,6 +393,10 @@ p {
   padding: 40px 10px;
   margin: 15px 0px;
   transition: all 0.5s;
+  min-height: 120px;
+}
+
+.what-we-do .list-item.step {
   min-height: 245px;
 }
 
@@ -412,11 +420,12 @@ p {
 }
 
 .what-we-do .list-item h4 {
-  margin-top: 20px;
-  margin-bottom: 0px;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 0px;*/
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .what-we-do .tab-content-services {
@@ -829,7 +838,7 @@ li.service-item {
 
 @media (max-width: 1200px) {
   .what-we-do .list-item h4 {
-    font-size: 12px;
+    font-size: 16px;
   }
   .navbar-brand {
     font-size: 14px;
@@ -1112,4 +1121,5 @@ li.service-item {
 
 .services .list-item {
   background-image: url(img/step1.png);
+  background-size: cover;
 }
