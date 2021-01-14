@@ -426,6 +426,7 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
+  word-break: break-word;
 }
 
 .what-we-do .tab-content-services {
