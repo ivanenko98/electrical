@@ -293,8 +293,8 @@ p {
 #about .service-item {
   text-align: center;
   margin: 0px -15px;
-  padding: 95px 45px;
-  height: 460px;
+  padding: 95px 45px 20px 45px;
+  height: 360px;
 }
 
 #about .service-item h4 {
@@ -397,7 +397,7 @@ p {
 }
 
 .what-we-do .list-item.step {
-  min-height: 245px;
+  min-height: 258px;
 }
 
 .step-number {
